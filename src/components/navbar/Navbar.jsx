@@ -1,5 +1,5 @@
-import React from 'react';
-import { RiMenu3Line, RiCloseLin } from 'react-icons/ri';
+import React, { useState } from 'react';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg';
 import logo2 from '../../assets/logo2.svg';
 import logo3 from '../../assets/logo3.svg';
@@ -15,12 +15,10 @@ const Menu = () => (
 )
 
 const Navbar = () => {
+  const [ toggleMenu, setToggleMenu ] = useState(false);
   return (
     <div className="code__navbar">
       <div className="code__navbar-links">
-{/*         <div className="code__navbar-links_logo">
-          <img src={logo} alt="logo" />
-        </div> */}
         <div className="code__navbar-links_container"> 
           <Menu />
         </div>
@@ -34,7 +32,19 @@ const Navbar = () => {
       <div className="code__navbar-links_logo">
         <img src={logo3} alt="logo3" />
       </div>
-      
+      <div className="code__navbar-menu">
+        {toggleMenu
+          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+        }
+        {toggleMenu && (
+          <div className="code__navbar-menu_container scale-up-center">
+            <div className="code__navbar-menu_container-links">
+              <Menu />
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   )
 }
