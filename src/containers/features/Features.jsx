@@ -24,7 +24,7 @@ const featuresData = [
 const Features = () => (
   <div className="code__features section__padding" id="Technologies">
     <div className="code__features-heading">
-      <h1 className="gradient__text">Technologies i've been learning for pass few years</h1>
+      <h1 className="gradient__text">Technologies I've been learning for the past few years</h1>
       <p>Two years of experience in Web Developement</p>
     </div>
     <div className="code__features-container">

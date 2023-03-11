@@ -86,9 +86,9 @@
 }
 
 .code__myprojects-container img {
-    width: 350px;
-    height: 200px;
-    margin-bottom: 0.25rem;
+    position: center;
+    width: 234px;
+    height: 143px;
 }
 
 @media screen and (max-width: 850px) {
@@ -119,6 +119,12 @@
         line-height: 40px;
     }
 
+    .code__myprojects-container img {
+        position: center;
+        width: 200px;
+        height: 100px;
+    }
+
 }
 
 @media screen and (max-width: 350px) {
@@ -126,5 +132,11 @@
     .code__myprojects-container .code__features-container__feature {
         margin: 1rem 0;
         min-width: 100%;
+    }
+
+    .code__myprojects-container img {
+        position: center;
+        width: 117px;
+        height: 71.5px;
     }
 }
