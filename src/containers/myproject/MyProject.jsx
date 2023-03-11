@@ -2,6 +2,10 @@ import React from 'react';
 import './myproject.css';
 /* import { Feature } from '../../components'; */
 import Feature from '../../components/feature/Feature';
+import rocket from "../../assets/rocket.png";
+import blocdirect from "../../assets/blocdirect.png";
+import codeboxx from "../../assets/codeboxx.png";
+
 
 const MyProject = () => {
   return (
@@ -14,8 +18,11 @@ const MyProject = () => {
         <p>Explore my project</p>
       </div>
       <div className="code__myprojects-container">
+      <img src={rocket} alt="rocket"/>
       <Feature title="Rocket Elevators" text="It's a website made to sell elevator, get a quote it as been made using Ruby on Rails, RestAPI, Nodejs." />
+      <img src={blocdirect} alt="blocdirect"/>
       <Feature title="Bloc Direct" text="Bloc Direct is a web site made to sell building, buy building and get a evaluation it as been made using Ruby on Rails." />
+      <img src={codeboxx} alt="codeboxx"/>
       <Feature title="Education" text="I did a boot camp with Codeboxx four month i have learn HTML, CSS/SASS, JavaScript, Node Express, React, Python, Panda, Ruby on Rails, Microsoft.Net, C Sharp, SQL" />
       </div>
     </div>

@@ -85,6 +85,12 @@
     margin-top: 0.5rem;
 }
 
+.code__myprojects-container img {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 0.25rem;
+}
+
 @media screen and (max-width: 850px) {
     .code__myprojects-heading {
         flex-direction: column;
