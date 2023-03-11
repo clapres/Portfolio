@@ -5,7 +5,7 @@ import Feature from '../../components/feature/Feature';
 
 const MyProject = () => {
   return (
-    <div className="code__myprojects section__margin" id="myprojects">
+    <div className="code__myprojects section__margin" id="myproject">
       <div className="code__myprojects-feature">
       <Feature title="Full stack" text="I am passionate about information technology, and I would love to have the opportunity to take on new challenges" />
       </div>

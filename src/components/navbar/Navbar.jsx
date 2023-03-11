@@ -9,7 +9,7 @@ const Menu = () => (
   <>
   <p><a href="#home">Home</a></p>
   <p><a href="#myproject">Projects</a></p>
-  <p><a href="#possibility">Technologies</a></p>
+  <p><a href="#Technologies">Technologies</a></p>
   <p><a href="#features">About</a></p>
   </>
 )
