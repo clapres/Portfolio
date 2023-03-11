@@ -1,6 +1,5 @@
 import React from 'react';
 import './myproject.css';
-/* import { Feature } from '../../components'; */
 import Feature from '../../components/feature/Feature';
 import rocket from "../../assets/rocket.png";
 import blocdirect from "../../assets/blocdirect.png";
@@ -14,16 +13,16 @@ const MyProject = () => {
       <Feature title="Full stack" text="I am passionate about information technology, and I would love to have the opportunity to take on new challenges" />
       </div>
       <div className="code__myprojects-heading">
-        <h1 className="gradient__text">Project i did during my career</h1>
+        <h1 className="gradient__text">Projects I've done during my career</h1>
         <p>Explore my project</p>
       </div>
       <div className="code__myprojects-container">
       <img src={rocket} alt="rocket"/>
-      <Feature title="Rocket Elevators" text="It's a website made to sell elevator, get a quote it as been made using Ruby on Rails, RestAPI, Nodejs." />
+      <Feature title="Rocket Elevators" text="Website made to sell elevators while letting customers request a quote. It has been made using Ruby on Rails, RestAPI, NodeJS." />
       <img src={blocdirect} alt="blocdirect"/>
-      <Feature title="Bloc Direct" text="Bloc Direct is a web site made to sell building, buy building and get a evaluation it as been made using Ruby on Rails." />
+      <Feature title="Bloc Direct" text="Bloc Direct is a website made to buy/sell buildings and get an evaluation. It has been made using Ruby on Rails." />
       <img src={codeboxx} alt="codeboxx"/>
-      <Feature title="Education" text="I did a boot camp with Codeboxx four month i have learn HTML, CSS/SASS, JavaScript, Node Express, React, Python, Panda, Ruby on Rails, Microsoft.Net, C Sharp, SQL" />
+      <Feature title="Education" text="I've done a bootcamp with Codeboxx lasting four months where I've learned HTML, CSS/SASS, JavaScript, Node Express, React, Python, Panda, Ruby on Rails, Microsoft.Net, C Sharp, SQL" />
       </div>
     </div>
   )
