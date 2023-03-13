@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Possibility, Features, MyProject, Header } from './containers';
-import { Brand, Navbar } from './components';
+import { Brand, Navbar, Contact } from './components';
 import './App.css';
 
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
       <MyProject />
       <Features />
       <Possibility />
+      <Contact />
     </div>
   )
 }

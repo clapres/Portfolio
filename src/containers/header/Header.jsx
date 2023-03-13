@@ -10,7 +10,7 @@ const Header = () => {
         <p>I've been working for Codeboxx from September 2021 till now as a software developer. This job gave me the opportunity to aquire various skills such as programming, maintenance and the use of different computer languages. Working for this company has also helped me to develop better communication skills. Logical, efficient, autonomous and with good analytical thinking, I could be a great asset to your company.</p>
         <div className="code__header-content__input">
           <input type="email" placeholder="alexandre.lapres@gmail.com" />
-          <button type="button">Contact me</button>
+          {/* <button type="button">Contact me</button> */}
         </div>
       </div>
       <div className="code__header-image">
